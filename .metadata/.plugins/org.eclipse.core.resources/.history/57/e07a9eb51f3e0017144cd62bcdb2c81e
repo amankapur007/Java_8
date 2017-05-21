@@ -1,0 +1,18 @@
+package com.example.java8;
+
+import java.util.Set;
+import java.util.StringJoiner;
+import java.util.TreeSet;
+
+public class StringJoinerClass {
+
+	public static void main(String[] args) {
+		
+		StringJoiner sj =new StringJoiner(",","{","}");
+		
+		Set<String> set = new TreeSet<>();
+		set.add("California");
+		set.add("Oregoin");
+		set.add("Washington");
+	}
+}

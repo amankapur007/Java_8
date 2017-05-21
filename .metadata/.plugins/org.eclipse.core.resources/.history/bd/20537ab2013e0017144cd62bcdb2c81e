@@ -1,0 +1,12 @@
+package com.example.java8;
+
+import com.example.java8.model.Person;
+
+public class InstanceReferenceMethod {
+
+	
+	public static int compareAges(Person p1, Person p2){
+		Integer age1 = p1.getAge();
+		return age1.compareTo(p2.getAge());
+	}
+}

@@ -1,0 +1,8 @@
+package com.example.java8;
+
+public class ParallelStreams {
+
+	public static void main(String[] args) {
+	
+	}
+}

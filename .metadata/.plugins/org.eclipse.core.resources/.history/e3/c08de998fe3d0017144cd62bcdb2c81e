@@ -1,0 +1,11 @@
+package com.example.java8;
+
+import java.util.ArrayList;
+
+import com.example.java8.model.Person;
+
+public class PredicateInnerClass {
+	public static void main(String[] args) {
+		List<Person> people = new ArrayList<Person>();
+	}
+}

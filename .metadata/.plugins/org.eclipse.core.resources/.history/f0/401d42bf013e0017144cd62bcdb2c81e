@@ -1,0 +1,9 @@
+package com.example.java8;
+
+public class InstanceReferenceMethod {
+
+	public static void main(String[] args) {
+		InstanceReferenceMethod mainClass = new InstanceReferenceMethod();
+	}
+	
+}

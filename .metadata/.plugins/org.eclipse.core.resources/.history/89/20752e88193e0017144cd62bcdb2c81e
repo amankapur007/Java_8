@@ -1,0 +1,27 @@
+package com.example.java8;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+
+public class Main {
+
+	public static void main(String[] args) {
+		LocalDate currentDate = LocalDate.now();
+		DateTimeFormatter df = DateTimeFormatter.ISO_DATE;
+		System.out.println(df.format(currentDate));
+		
+		LocalTime currentTime = LocalTime.now();
+		DateTimeFormatter tf = DateTimeFormatter.ISO_TIME;
+		System.out.println(tf.format(currentTime));
+	
+		LocalDateTime currentDT = LocalDateTime.now();
+		DateTimeFormatter dtf = DateTimeFormatter.ISO_DATE;
+		System.out.println(dtf.format(currentDT));
+		
+		DateTimeFormatter f_long = DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG);
+		System.out.println(f_long.format(currentDT));
+	}
+}

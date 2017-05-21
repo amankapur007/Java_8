@@ -1,0 +1,13 @@
+package com.example.java8;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
+
+public class Main {
+	public static void main(String[] args) {
+		DateTimeFormatter dtf= DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT);
+		LocalDateTime dt = LocalDateTime.now();
+		
+	}
+}

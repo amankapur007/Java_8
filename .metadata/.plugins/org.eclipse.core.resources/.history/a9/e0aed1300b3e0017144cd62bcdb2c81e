@@ -1,0 +1,15 @@
+package com.exaple.java8;
+
+import java.time.LocalDate;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		LocalDate currentDate = LocalDate.now();
+		System.out.println(currentDate);
+		
+		LocalDate specificDate = LocalDate.of(2000, 1, 1);
+		System.out.println(specificDate);
+	}
+}

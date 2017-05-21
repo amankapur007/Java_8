@@ -1,0 +1,22 @@
+package com.example.java8;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CountItem {
+
+	public static void main(String[] args) {
+
+		System.out.println("Creating list");
+		List<String> strings = new ArrayList<>();
+		for(int i=0;i<10000000;i++){
+			strings.add("Item "+i);
+		}
+		
+		/*strings.stream().parallel()
+			.forEach(str -> System.out.println(str));*/
+		
+		long count = strings.stream().parallel().count();
+				System.out.println("Count : "+count);
+	}
+}

@@ -1,0 +1,14 @@
+package com.example.java8;
+
+import java.util.StringJoiner;
+import java.util.TreeSet;
+
+public class StringJoinerClass {
+
+	public static void main(String[] args) {
+		
+		StringJoiner sj =new StringJoiner(",","{","}");
+		
+		Set<String> set = new TreeSet<>();
+	}
+}

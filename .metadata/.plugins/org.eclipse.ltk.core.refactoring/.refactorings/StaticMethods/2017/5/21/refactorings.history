@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Person.java&apos; to &apos;TraversingStreams/src/com.example.java8.model&apos;&#x0D;&#x0A;- Original project: &apos;StaticMethods&apos;&#x0D;&#x0A;- Destination element: &apos;TraversingStreams/src/com.example.java8.model&apos;&#x0D;&#x0A;- Original element: &apos;com.example.java8.model.Person.java&apos;" description="Copy compilation unit" destination="=TraversingStreams/src&lt;com.example.java8.model" element1="/src&lt;com.example.java8.model{Person.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1495357923518" units="1" version="1.0"/>
+</session>

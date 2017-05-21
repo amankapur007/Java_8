@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+
+var feed = '';
+var url = new java.netURL(feed);
+input = new java.util.Scanner(url.openStream());
+input.useDelimiter('$');
+var contents = input.next();
+contents

@@ -1,0 +1,19 @@
+package com.example.jav8;
+
+import java.nio.file.FileSystem;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Path path = FileSystems.getDefault().getPath("files", "hamlet.txt");
+		String searchTerm = "To be, or not to be";
+		try{
+			
+		}
+		catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

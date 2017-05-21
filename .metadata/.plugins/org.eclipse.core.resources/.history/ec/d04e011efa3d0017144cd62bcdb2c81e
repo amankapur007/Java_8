@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package com.example.javase8;
+
+/**
+ * @author Hp
+ *
+ */
+public class UseSimpleInterface {
+	public static void main(String[] args) {
+		
+	}
+}
